@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Justin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="projects.css">
+</head>
+<body data-page="projects">
+
+<header class="site-header" id="header">
+  <a href="index.html" class="brand"><span data-bind="name">Justin</span><b>.</b></a>
+  <nav class="nav" id="nav">
+    <a href="index.html" data-page="home">Home</a>
+    <a href="about.html" data-page="about">About</a>
+    <a href="skills.html" data-page="skills">Skills</a>
+    <a href="projects.html" data-page="projects">Projects</a>
+    <a href="contact.html" data-page="contact">Contact</a>
+  </nav>
+  <span class="avail"><span data-bind="availability">Available for freelance</span><i data-icon="spark"></i></span>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<div id="top"></div>
+<section class="page-head">
+  <div class="bg-word" aria-hidden="true">Work</div>
+  <p class="eyebrow">03 — Selected work</p>
+  <h1>Selected <span class="red">Projects</span></h1>
+  <p>A collection of academic projects, creative activities, and personal work that showcase my skills and learning journey.</p>
+</section>
+
+<section class="section">
+
+  <!-- =====================================================
+       FILTER BUTTONS
+       To rename a button: change the text AND the data-filter value.
+       The data-filter value must match the data-cat of the cards below.
+       ===================================================== -->
+  <div class="filters" id="pfilters">
+    <button class="chip on" data-filter="all">All</button>
+    <button class="chip" data-filter="academic">Academic</button>
+    <button class="chip" data-filter="presentations">Presentations</button>
+    <button class="chip" data-filter="digital-design">Digital Design</button>
+    <button class="chip" data-filter="personal">Personal</button>
+    <button class="chip" data-filter="web-projects">Web Projects</button>
+  </div>
+
+  <!-- =====================================================
+       PROJECT CARDS
+       ===================================================== -->
+  <div class="pgrid" id="pgrid">
+
+    <!-- CARD 01 -->
+    <article class="pcard reveal" data-cat="academic">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/2.png"Academic project" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">01</span>
+          <div class="pcard-text"><h3>Academic</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+    <!-- CARD 02 -->
+    <article class="pcard reveal" data-cat="presentations">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/presentationss.jpg" alt="Presentation" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">02</span>
+          <div class="pcard-text"><h3>Presentations</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+    <!-- CARD 03 -->
+    <article class="pcard reveal" data-cat="digital-design">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/digital design.jpg" alt="Digital design" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">03</span>
+          <div class="pcard-text"><h3>Digital Design</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+    <!-- CARD 04 -->
+    <article class="pcard reveal" data-cat="personal">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/personal.jpg" alt="Personal project" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">04</span>
+          <div class="pcard-text"><h3>Personal</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+    <!-- CARD 05 -->
+    <article class="pcard reveal" data-cat="web-projects">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/web proj.jpg" alt="Web project" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">05</span>
+          <div class="pcard-text"><h3>Web Projects</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+    <!-- CARD 06 -->
+    <article class="pcard reveal" data-cat="academic">
+      <a href="#" class="pcard-link">
+        <div class="pcard-img"><img src="Images/academic.jpg" alt="Academic project" onerror="this.remove()"></div>
+        <div class="pcard-info">
+          <span class="pcard-no">06</span>
+          <div class="pcard-text"><h3>Academic</h3></div>
+          <span class="pcard-arrow" data-icon="arrow"></span>
+        </div>
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© <span data-year></span> <span data-bind="name">Justin</span></span>
+  <div class="foot-social">
+    <a data-link="facebook" aria-label="Facebook"><i data-icon="facebook"></i></a>
+    <a data-link="instagram" aria-label="Instagram"><i data-icon="instagram"></i></a>
+    <a data-link="email" aria-label="Email"><i data-icon="mail"></i></a>
+  </div>
+  <a href="#top" class="totop">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+<script src="projects.js"></script>
+</body>
+</html>

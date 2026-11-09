@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Justin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+
+<header class="site-header" id="header">
+  <a href="index.html" class="brand"><span data-bind="name">Justin</span><b>.</b></a>
+  <nav class="nav" id="nav">
+    <a href="index.html" data-page="home">Home</a>
+    <a href="about.html" data-page="about">About</a>
+    <a href="skills.html" data-page="skills">Skills</a>
+    <a href="projects.html" data-page="projects">Projects</a>
+    <a href="contact.html" data-page="contact">Contact</a>
+  </nav>
+  <span class="avail"><span data-bind="availability">Available for freelance</span><i data-icon="spark"></i></span>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<div id="top"></div>
+<section class="page-head">
+  <div class="bg-word" aria-hidden="true">Contact</div>
+  <p class="eyebrow">04 — Say hello</p>
+  <h1>Get in <span class="red">Touch</span></h1>
+  <p>I'm currently open for new projects and collaborations.</p>
+</section>
+
+<section class="section">
+  <div class="contact-grid">
+    <div class="reveal">
+      <h2>Let's work<br>together <i data-icon="spark"></i></h2>
+      <p>I'm currently open for new projects and collaborations. Let's create something amazing that drives results.</p>
+      <ul class="clist">
+        <li><span class="ico"><i data-icon="mail"></i></span><span data-bind="email">hello@justin.com</span><small>Click to copy</small></li>
+        <li><span class="ico"><i data-icon="phone"></i></span><span data-bind="phone">+00 000 000 0000</span><small>Click to copy</small></li>
+        <li><span class="ico"><i data-icon="pin"></i></span><span data-bind="location">Cebu City, Philippines</span><small>Click to copy</small></li>
+      </ul>
+    </div>
+
+    <div class="reveal">
+      <form class="cform" id="cform" novalidate>
+        <div class="field"><input type="text" name="name" id="f-name" placeholder=" " autocomplete="name"><label for="f-name">Your name</label><span class="msg"></span></div>
+        <div class="field"><input type="email" name="email" id="f-email" placeholder=" " autocomplete="email"><label for="f-email">Your email</label><span class="msg"></span></div>
+        <div class="field"><textarea name="message" id="f-msg" placeholder=" "></textarea><label for="f-msg">Your message</label><span class="msg"></span></div>
+        <button type="submit" class="btn">Send message <i data-icon="arrow"></i></button>
+        <p class="note-ok" id="ok"></p>
+      </form>
+
+      
+        <div class="scr">JUSTIN.<b>WE DESIGN<br>DIGITAL<br>EXPERIENCES</b><i></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© <span data-year></span> <span data-bind="name">Justin</span></span>
+  <div class="foot-social">
+    <a data-link="facebook" aria-label="Facebook"><i data-icon="facebook"></i></a>
+    <a data-link="instagram" aria-label="Instagram"><i data-icon="instagram"></i></a>
+    <a data-link="email" aria-label="Email"><i data-icon="mail"></i></a>
+  </div>
+  <a href="#top" class="totop">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

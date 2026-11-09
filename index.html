@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Justin | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header" id="header">
+  <a href="index.html" class="brand"><span data-bind="name">Justin Lee M. Alampayan </span><b>.</b></a>
+  <nav class="nav" id="nav">
+    <a href="index.html" data-page="home">Home</a>
+    <a href="about.html" data-page="about">About</a>
+    <a href="skills.html" data-page="skills">Skills</a>
+    <a href="projects.html" data-page="projects">Projects</a>
+    <a href="contact.html" data-page="contact">Contact</a>
+  </nav>
+  <span class="avail"><span data-bind="availability">Available for freelance</span><i data-icon="spark"></i></span>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main class="hero" id="top">
+  <div class="bg-word" aria-hidden="true">Portfolio</div>
+
+  <div class="hero-photo">
+    <div class="photo-box">
+      <img src="Images/Confident Red-Tie Studio Portrait.png" alt="Portrait of Justin">  
+      <div class="photo-tools">
+        <label><input type="file" accept="image/*" data-photo-input hidden><i data-icon="camera"></i> Change photo</label>
+        <button type="button" data-photo-reset><i data-icon="reset"></i> Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-left">
+    <p class="script">Hello, I'm</p>
+    <h1 class="name" data-bind="name">Justin Lee M. Alampayan</h1>
+    <p class="role" id="role" data-bind="role">Problem Solving</p>
+    <p class="bio" data-bind="bio">I design and build stylish, user-focused web experiences.</p>
+    <p class="world"><i data-icon="globe"></i><span data-bind="availableWorldwide">Available worldwide</span></p>
+  </div>
+
+  <div class="hero-right">
+    <div class="turn"><span class="ring"><i data-icon="spark"></i></span><p data-bind="tagline">Turning ideas into powerful digital experiences.</p></div>
+    <ul class="stats">
+      <li><b data-count="1" data-suffix="st">0</b><span>YEAR IN ACADEMIC<br>JOURNEY</span></li>
+      <li><b data-count="10">0+</b><span>SKILLS <br>DEVELOPED</span></li>
+      <li><b data-count="100" data-suffix="%">0%</b><span>COMMITMENT</span></li>
+    </ul>
+  </div>
+</main>
+
+<section class="explore">
+  <div class="sec-head reveal"><h2>Explore</h2><span class="rule"></span></div>
+  <div class="explore-grid">
+    <a href="about.html" class="xcard reveal"><span class="num">01</span><div><h3>ABOUT ME</h3><p>My background, interests, and goals.</p></div><span class="go"><i data-icon="arrow"></i></span></a>
+    <a href="skills.html" class="xcard reveal"><span class="num">02</span><div><h3>MY SKILLS</h3><p>Skills, knowledge, and learning progress.</p></div><span class="go"><i data-icon="arrow"></i></span></a>
+    <a href="projects.html" class="xcard reveal"><span class="num">03</span><div><h3>MY PROJECTS</h3><p>Academic work and personal creations.</p></div><span class="go"><i data-icon="arrow"></i></span></a>
+    <a href="contact.html" class="xcard reveal"><span class="num">04</span><div><h3>GET IN TOUCH</h3><p>Connect with me and share opportunities.</p></div><span class="go"><i data-icon="arrow"></i></span></a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© <span data-year></span> <span data-bind="name">Justin</span></span>
+  <div class="foot-social">
+    <a data-link="facebook" aria-label="Facebook"><i data-icon="facebook"></i></a>
+    <a data-link="instagram" aria-label="Instagram"><i data-icon="instagram"></i></a>
+    <a data-link="email" aria-label="Email"><i data-icon="mail"></i></a>
+  </div>
+  <a href="#top" class="totop">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

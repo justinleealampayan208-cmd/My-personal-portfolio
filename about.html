@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | Justin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="about">
+
+<header class="site-header" id="header">
+  <a href="index.html" class="brand"><span data-bind="name">Justin</span><b>.</b></a>
+  <nav class="nav" id="nav">
+    <a href="index.html" data-page="home">Home</a>
+    <a href="about.html" data-page="about">About</a>
+    <a href="skills.html" data-page="skills">Skills</a>
+    <a href="projects.html" data-page="projects">Projects</a>
+    <a href="contact.html" data-page="contact">Contact</a>
+  </nav>
+  <span class="avail"><span data-bind="availability">Available for freelance</span><i data-icon="spark"></i></span>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<div id="top"></div>
+<section class="page-head">
+  <div class="bg-word" aria-hidden="true">About</div>
+  <p class="eyebrow">01 — Who I am</p>
+  <h1>About <span class="red">Me</span></h1>
+  <p data-bind="tagline">Turning ideas into powerful digital experiences.</p>
+</section>
+
+<section class="section">
+  <div class="about-grid">
+    <div class="about-photo reveal">
+      <div class="photo-box">
+        <img src="Images/Profile.png" alt="Portrait of Justin">
+        <div class="photo-tools">
+          <label><input type="file" accept="image/*" data-photo-input hidden><i data-icon="camera"></i> Change photo</label>
+          <button type="button" data-photo-reset><i data-icon="reset"></i> Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <p class="script">Hello, I'm</p>
+      <h2>A FIRST-YEAR STUDENT EAGER TO LEARN <span class="red">bold</span>, GROW &amp; CREATE </h2>
+      <p>I am a motivated first-year college student who enjoys learning new things, exploring ideas, 
+        and developing practical skills. I believe in combining creativity, curiosity, and dedication to produce meaningful work.</p>
+      <p>As I continue my academic journey, I strive to improve my communication, problem-solving, and technical skills through school activities, personal projects, and hands-on learning experiences.</p>
+      <p>Outside the classroom, I enjoy exploring technology, discovering new interests, and finding inspiration that helps me grow both personally and academically.</p>
+      <div class="facts">
+        <div><b data-count="1" data-suffix="st">0</b><span>YEAR IN ACADEMIC<br>JOURNEY</span></div>
+        <div><b data-count="10">0+</b><span>SKILLS <br>DEVELOPED</span></div>
+        <div><b data-count="100" data-suffix="%">0%</b><span>COMMITMENT</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="two-col">
+    <div class="reveal">
+      <p class="label-red">Educational Background</p>
+      <div class="edu-item"><div><h4>Cordova Public College</h4><small>College</small></div><time>2026 – 2027</time></div>
+      <div class="edu-item"><div><h4>Proverbs Ville Academy Foundation Inc.</h4><small>Senior High</small></div><time>2026</time></div>
+      <div class="edu-item"><div><h4>Pilipog Elementary School</h4><small>Elementary</small></div><time>2019</time></div>
+    </div>
+    <div class="quote reveal">
+      <i data-icon="quote"></i>
+      <div>
+        <p>Good design is not just how it looks, but how it works.</p>
+        <div class="sig" data-bind="name">Justin</div>
+      </div>
+      <small>Let's create something great together.</small>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>© <span data-year></span> <span data-bind="name">Justin</span></span>
+  <div class="foot-social">
+    <a data-link="facebook" aria-label="Facebook"><i data-icon="facebook"></i></a>
+    <a data-link="instagram" aria-label="Instagram"><i data-icon="instagram"></i></a>
+    <a data-link="email" aria-label="Email"><i data-icon="mail"></i></a>
+  </div>
+  <a href="#top" class="totop">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
